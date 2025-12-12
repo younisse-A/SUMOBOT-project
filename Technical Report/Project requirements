@@ -1,0 +1,49 @@
+1. Required Functions
+
+- “The robot shoots fireballs from its mouth.”
+    → Integrated blowpipe inside the head: rack‑and‑pinion mechanism driven by a servo motor.
+
+ - “Push back the opposing robots.”
+    → Front ramp designed to slightly lift and destabilize opponents.
+
+- “The robot must look like a red dragon with pink butterfly wings and Elsa from Frozen on its back.”
+   → 3D‑printed and assembled outer shell in red.
+
+- “It must talk and shout.”
+    → Speaker connected to the Arduino; it speaks using the children’s recorded voices.
+
+2. Main Constraints
+
+- Safety: short firing range, limited impact energy; no sharp or hazardous elements.
+
+- Manufacturing: parts must be 3D-printable or easily cut; simple assembly (screws/clips/pins).
+
+- Resources: use of lightweight and readily available materials.
+
+- Maintenance: easy access to the blowpipe mechanism and wear components.
+
+3. Key Technical Requirements
+
+- Blowpipe: rigid guiding, repeatable firing, limited energy; accessible for projectile reloading.
+
+- Legs: optimized inclined angle, reinforced local strength.
+
+- Chassis / Shell: ensure stability (low center of gravity) and robust mounting of sub-assemblies.
+
+- Materials: reinforced PLA 3D-printed plastic or plywood.
+
+- Assembly: standard screw fasteners.
+
+- Blowpipe sizing: projectile assumptions (mass/diameter), actuator selection, safety considerations.
+
+- FEA (pinion): load cases, boundary conditions, allowable stress.
+
+- Testing: firing range and repeatability tests, leg resistance tests (simulated impacts), stability verification during operation.
+
+4. Planned Studies and Tests
+
+- Blowpipe sizing: projectile assumptions (mass/diameter), actuator choice, safety validation.
+
+- FEA on pinion: load analysis, boundary conditions, stress limits.
+
+- Tests: blowpipe range & repeatability tests, leg resistance tests (simulated contacts), stability tests under real conditions.
